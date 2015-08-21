@@ -11,6 +11,8 @@ namespace MVALearnAsp4._5MVC.Models
 
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Speaker> Speakers { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+
 
     }
 }

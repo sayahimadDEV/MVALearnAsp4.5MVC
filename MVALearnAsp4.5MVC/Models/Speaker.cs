@@ -13,6 +13,7 @@ namespace MVALearnAsp4._5MVC.Models
         [Display(Name ="Speaker name")]
         public String Name { get; set; }
 
+        [DataType(DataType.EmailAddress)]
         public String EmailAddress { get; set; }
         //commentaire
         //public virtual List<Session> ListSession { get; set; }

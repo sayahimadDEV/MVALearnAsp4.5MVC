@@ -20,5 +20,7 @@ namespace MVALearnAsp4._5MVC.Models
 
         public virtual Speaker Speaker { get; set; }
 
+        public virtual List<Comment> Comments { get; set; }
+
     }
 }
